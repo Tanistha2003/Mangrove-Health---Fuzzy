@@ -8,8 +8,8 @@ The system integrates neural networks for pattern recognition and fuzzy logic fo
 
 ## 🌱 Steps  ##
 
-✅ Species Identification: The leaves of the mangrove are classified into the three species of *Rhizophora apiculata*, *Avicennia officinalis*, and *Sonneratia alba* from   
-                            the total 240 images collected (100 - *Rhizophora apiculata*,70 - *Avicennia officinalis*,70 - *Sonneratia alba*). 
+✅ Species Identification: The leaves of the mangrove are classified into the three species of *Rhizophora apiculata*, *Avicennia officinalis*, and *Sonneratia alba* from a 
+                           total of 240 images collected(100 - *Rhizophora apiculata*,70 - *Avicennia officinalis*,70 - *Sonneratia alba*). 
 
 ✅ Feature Extraction: Entropy, leaf vein texture analysis using Gabor filters, Green-to Red ratio statistics, Chlorophyll Absorption Index, Hue index, Fractal patterns, 
                         etc. are extracted from the images, to create the dataset as per the three leaf species. The final dataset had 241 instances and 29 attributes.
@@ -21,8 +21,9 @@ The system integrates neural networks for pattern recognition and fuzzy logic fo
 
 ✅ Neuro-Fuzzy System: Combines fuzzy logic with neural networks for adaptive decision-making.
 
+
 ## 📊 Results ##
 
-1. Classification Accuracy: 95.8%
+- Classification Accuracy: 95.8%
 
-2. Steady Health Recognition: 98.01%
+- Steady Health Recognition: 98.01%
