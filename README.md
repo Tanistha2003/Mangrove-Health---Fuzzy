@@ -34,3 +34,15 @@ The system integrates neural networks for pattern recognition and fuzzy logic fo
   | Moderate         | 92               |
   | Poor             | 83               |
 
+## 🔹 Fuzzy Rules Extracted ##
+
+The model generated 9 fuzzy rules, explaining how different features influence health classification for each species.
+
+# 🛠 Installation #
+
+## Clone the repository
+git clone https://github.com/your-repo/mangrove-health-prediction.git
+cd mangrove-health-prediction
+
+## Install dependencies
+pip install -r requirements.txt
