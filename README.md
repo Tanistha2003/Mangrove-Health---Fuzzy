@@ -27,3 +27,10 @@ The system integrates neural networks for pattern recognition and fuzzy logic fo
 - Classification Accuracy: 95.8%
 
 - Steady Health Recognition: 98.01%
+
+  | Health Condition | No. of Instances |
+  | ---------------- | ---------------- |
+  | Good             | 65               |
+  | Moderate         | 92               |
+  | Poor             | 83               |
+
