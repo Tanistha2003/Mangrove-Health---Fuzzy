@@ -8,11 +8,11 @@ The system integrates neural networks for pattern recognition and fuzzy logic fo
 
 ## 🌱 Features  ##
 
-✅ Species Identification: Classifies Rhizophora apiculata, Avicennia officinalis, and Sonneratia alba
+✅ Species Identification: classifies the species of *Rhizophora apiculata*, *Avicennia officinalis*, and *Sonneratia alba*
 
-✅ Health Categorization: Classifies leaves as Good, Moderate, or Poor health
+✅ Health Categorization:the tree leaves are categorized as Good, Moderate, or Poor using fuzzy clustering 
 
-✅ Feature Extraction: Uses Gabor filters, GR statistics, CAI measurement, hue phase, and fractal patterns
+✅ Feature Extraction: Gabor filters, Green-to Red ratio statistics, Chlorophyll Absorption Index measurement, Hue index, and Fractal patterns are extracted from the images, to create the dataset as per the species
 
 ✅ Neuro-Fuzzy System: Combines fuzzy logic with neural networks for adaptive decision-making
 
