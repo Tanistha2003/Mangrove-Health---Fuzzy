@@ -42,14 +42,5 @@ The model generated 9 fuzzy rules, explaining how different features influence h
 
 ## Clone the repository
 ```bash
-git clone https://github.com/your-repo/mangrove-health-prediction.git
-cd mangrove-health-prediction
+gh repo clone Tanistha2003/Mangrove-Health---Fuzzy
 ```
-
-## Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Model
-python main.py
