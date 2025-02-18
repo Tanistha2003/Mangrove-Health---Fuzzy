@@ -1,6 +1,6 @@
 # Mangrove Health Prediction through Neuro-Fuzzy Inference #
 
-📌 Overview 
+## 📌 Overview  ##
 
 This project presents an adaptive system built with Neuro-Fuzzy Inference to identify mangrove species and assess their health despite challenges such as spectral blending, changing environmental conditions, and limited labeled data.
 
