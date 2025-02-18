@@ -6,14 +6,23 @@ This project presents an adaptive system built with Neuro-Fuzzy Inference to ide
 
 The system integrates neural networks for pattern recognition and fuzzy logic for handling uncertainty. It classifies mangroves into three health clusters: Good, Moderate, and Poor, with an accuracy of 95.8%. The model leverages hyperspectral and multispectral data to extract key vegetation indices and chlorophyll absorption metrics for precise classification.
 
-## 🌱 Features  ##
+## 🌱 Steps  ##
 
-✅ Species Identification: classifies the species of *Rhizophora apiculata*, *Avicennia officinalis*, and *Sonneratia alba*
+✅ Species Identification: The leaves of the mangrove are classified into the three species of *Rhizophora apiculata*, *Avicennia officinalis*, and *Sonneratia alba* from   
+                            the total 240 images collected (100 - *Rhizophora apiculata*,70 - *Avicennia officinalis*,70 - *Sonneratia alba*). 
 
-✅ Health Categorization:the tree leaves are categorized as Good, Moderate, or Poor using fuzzy clustering 
+✅ Feature Extraction: Entropy, leaf vein texture analysis using Gabor filters, Green-to Red ratio statistics, Chlorophyll Absorption Index, Hue index, Fractal patterns, 
+                        etc. are extracted from the images, to create the dataset as per the three leaf species. The final dataset had 241 instances and 29 attributes.
 
-✅ Feature Extraction: Gabor filters, Green-to Red ratio statistics, Chlorophyll Absorption Index measurement, Hue index, and Fractal patterns are extracted from the images, to create the dataset as per the species
+✅ Dimensionality Reduction: Using Principal Component Analysis (PCA) was performed to reduce the dimensionality of the dataset, identifying the top 11 features to be 
+                             considered, contributing 60.52% variance of the dataset.
 
-✅ Neuro-Fuzzy System: Combines fuzzy logic with neural networks for adaptive decision-making
+✅ Health Categorization: The tree leaves are then categorized as Good, Moderate, or Poor using Fuzzy clustering mechanism.
 
-✅ Dimensionality Reduction: Uses Principal Component Analysis (PCA) to optimize features
+✅ Neuro-Fuzzy System: Combines fuzzy logic with neural networks for adaptive decision-making.
+
+## 📊 Results ##
+
+1. Classification Accuracy: 95.8%
+
+2. Steady Health Recognition: 98.01%
